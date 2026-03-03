@@ -7,6 +7,6 @@ except PackageNotFoundError:
     __version__ = "0.0.0-dev"
 
 from .client import EneaOutagesClient
-from .models import Outage
+from .models import Outage, OutageType
 
-__all__ = ["EneaOutagesClient", "Outage"]
+__all__ = ["EneaOutagesClient", "Outage", "OutageType"]
